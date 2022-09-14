@@ -8,8 +8,8 @@
 #ifndef BSP_INC_LED_MATRIX_SPI_H_
 #define BSP_INC_LED_MATRIX_SPI_H_
 
-#include <stm32f0xx.h>
-#include <delay.h>
+#include "stm32f0xx.h"
+#include "delay.h"
 
 // MAX7219 register addresses
 #define DECODE_MODE 0x09
