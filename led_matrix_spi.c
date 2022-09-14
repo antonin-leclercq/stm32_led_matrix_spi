@@ -6,7 +6,7 @@
  */
 
 
-#include <led_matrix_spi.h>
+#include "led_matrix_spi.h"
 
 void LED_Matrix_SPI_Init(const uint8_t scan_limit, const uint8_t intensity, const uint8_t decode_mode, const uint8_t demo)
 {
